@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday, Madam G 🌸</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@200;300;400;500&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ════════════════ LOADER ════════════════ -->
+<div id="loader">
+  <p class="loader-script">Madam G</p>
+  <div class="loader-line"></div>
+  <p class="loader-sub">A Birthday Gift Special For You</p>
+</div>
+
+<!-- ════════════════ CONFETTI CANVAS ════════════════ -->
+<canvas id="confetti-canvas"></canvas>
+
+<!-- ════════════════ MUSIC PLAYER ════════════════ -->
+<div id="music-player">
+  <div class="music-label">Click To Play Music 🎵</div>
+  <button class="music-btn" id="musicBtn" aria-label="Toggle music">🎵</button>
+  <audio id="bgMusic" loop>
+    <!-- Royalty-free ambient music URL (public domain) -->
+    <source src="hbdpoetry.mp3" type="audio/mpeg">
+  </audio>
+</div>
+
+<!-- ════════════════ HERO ════════════════ -->
+<section id="hero">
+  <div class="ornament-top">✦ ✦ ✦</div>
+
+  <p class="eyebrow">A Special Day · A Special Soul</p>
+
+  <h1 class="main-title">Happy Birthday<br>Madam G</h1>
+
+  <div class="divider-gold">
+    <hr/><span>✦</span><hr/>
+  </div>
+
+  <p class="subtitle">"Some people make life more beautiful simply by being in it — you are one of them."</p>
+
+  <p class="urdu-line">Aap meri zindagi mein bohat khaas hain ✨</p>
+
+  <a href="#message" class="hero-btn">Read Your Message</a>
+
+  <div class="ornament-bottom">✦ ✦ ✦</div>
+</section>
+
+<!-- ════════════════ PERSONAL MESSAGE ════════════════ -->
+<section id="message" class="section-wrap">
+  <div class="container">
+    <div class="text-center mb-5 reveal">
+      <p class="section-eyebrow">From the Heart</p>
+      <h2 class="section-title">A Message <em>Just For You</em></h2>
+      <div class="gold-rule"><hr/><span>✦</span><hr/></div>
+    </div>
+
+    <div class="message-card reveal reveal-delay-1">
+      <p>
+        Today I make a sincere dua for you. May Allah fill your life with barakah, protect your heart from every sadness, and bless every step you take with peace and success. May your days be full of smiles, your heart full of faith, and your life full of beautiful moments.
+      </p>
+      <p>
+        Even though our paths have not yet fully come together, I believe that Allah writes the most beautiful stories in His perfect timing. And maybe, somewhere in that story, He has written our names side by side.
+      </p>
+      <p>
+        You deserve a life full of kindness, respect, laughter, and love. May Allah grant you all the happiness your heart can hold and more.
+      </p>
+      <p>
+        And honestly… the man who will marry you is going to be the luckiest man in the world. 
+        I’m just quietly praying that In Sha Allah, that lucky man might be me.In Sha Allah 😊
+      </p>
+      <p>
+        Until the day Allah brings our lives together, know that there is someone making dua for your happiness.
+      </p>
+      <div class="message-signature">
+        <hr/>
+        <span class="sig-text">May Allah always protect your smile and bless your life. 🤍</span>
+        <hr/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════ PHOTO GALLERY ════════════════ -->
+<section id="gallery" class="section-wrap">
+  <div class="container">
+    <div class="text-center mb-5 reveal">
+      <p class="section-eyebrow">Moments & Memories</p>
+      <h2 class="section-title">A Gallery of <em>Beautiful Moments</em></h2>
+      <div class="gold-rule"><hr/><span>✦</span><hr/></div>
+      <p class="mt-3" style="color:var(--text-soft); font-size:.9rem; font-style:italic;">
+        I dont want to show images publically.
+      </p>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item reveal">
+        <div class="gallery-placeholder">🌸<span><img src="Bear3.jpg" alt="Madam G" /></span></div>
+        <div class="gallery-overlay"><p>A timeless smile 🌸</p></div>
+      </div>
+      <div class="gallery-item reveal reveal-delay-1">
+        <div class="gallery-placeholder">🌷<span><img src="Bear1.jpg" alt="Madam G" /></span></div>
+        <div class="gallery-overlay"><p>Grace & elegance ✨</p></div>
+      </div>
+      <div class="gallery-item reveal reveal-delay-2">
+        <div class="gallery-placeholder">✨<span><img src="Bear5.jpg" alt="Madam G" /></span></div>
+        <div class="gallery-overlay"><p>Pure radiance 💫</p></div>
+      </div>
+      <div class="gallery-item reveal reveal-delay-3">
+        <div class="gallery-placeholder">🕊️<span><img src="Bear4.jpg" alt="Madam G" /></span></div>
+        <div class="gallery-overlay"><p>Gentle & kind 🕊️</p></div>
+      </div>
+      <div class="gallery-item reveal reveal-delay-2">
+        <div class="gallery-placeholder"><span><img src="Bear6.jpg" alt="Madam G" /></span></div>
+        <div class="gallery-overlay"><p>In full bloom 💐</p></div>
+      </div>
+      <div class="gallery-item reveal reveal-delay-3">
+        <div class="gallery-placeholder"><span><img src="Bear2.jpg" alt="Madam G" /></span></div>
+        <div class="gallery-overlay"><p> Always happy 🌙</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════ QUOTES ════════════════ -->
+<section id="quotes" class="section-wrap">
+  <div class="container">
+    <div class="text-center mb-5 reveal">
+      <p class="section-eyebrow">Words of Grace</p>
+      <h2 class="section-title">Quotes That <em>Reflect You</em></h2>
+      <div class="gold-rule"><hr/><span>✦</span><hr/></div>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="quote-card">
+          <div class="quote-icon">🌸</div>
+          <blockquote>"She is clothed in strength and dignity, and she laughs without fear of the future."</blockquote>
+          <cite>— For You</cite>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+        <div class="quote-card">
+          <div class="quote-icon">✨</div>
+          <blockquote>"The most beautiful thing a woman can wear is confidence — you wear it effortlessly."</blockquote>
+          <cite>— For You</cite>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+        <div class="quote-card">
+          <div class="quote-icon">💛</div>
+          <blockquote>"Kindness is the language which the deaf can hear and the blind can see."</blockquote>
+          <cite>— For You</cite>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+        <div class="quote-card">
+          <div class="quote-icon">🌹</div>
+          <blockquote>"A woman's grace is not in the perfection of her form, but in the warmth of her spirit."</blockquote>
+          <cite>— For You</cite>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+        <div class="quote-card">
+          <div class="quote-icon">🦋</div>
+          <blockquote>"She remembered who she was and the game changed."</blockquote>
+          <cite>— For You</cite>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal reveal-delay-3">
+        <div class="quote-card">
+          <div class="quote-icon">🌙</div>
+          <blockquote>"You have always been beautiful. Now you're just deciding to be healthier, stronger, more you."</blockquote>
+          <cite>— For You</cite>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════ WHY YOU ARE SPECIAL ════════════════ -->
+<section id="special" class="section-wrap">
+  <div class="container">
+    <div class="text-center mb-5 reveal">
+      <p class="section-eyebrow">A Special Wish From Me to You.</p>
+      <h2 class="section-title">Why You Are <em>So Special</em></h2>
+      <div class="gold-rule"><hr/><span>✦</span><hr/></div>
+    </div>
+
+    <div class="row g-3">
+      <div class="col-md-6 reveal">
+        <div class="special-item">
+          <div class="special-icon">🌸</div>
+          <div>
+            <h5>Your Grace is Unmatched</h5>
+            <p>The way you carry yourself — with quiet elegance and unshakeable poise — is something truly rare and deeply admired by all who know you.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 reveal reveal-delay-1">
+        <div class="special-item">
+          <div class="special-icon">💛</div>
+          <div>
+            <h5>Your Heart is Pure Gold</h5>
+            <p>You give without counting, love without condition, and support without expectation. That purity of heart is your most precious quality.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 reveal reveal-delay-1">
+        <div class="special-item">
+          <div class="special-icon">✨</div>
+          <div>
+            <h5>Your Wisdom Lights the Way</h5>
+            <p>Every word you speak carries weight and wisdom. You have a gift for turning complexity into clarity — and confusion into calm.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 reveal reveal-delay-2">
+        <div class="special-item">
+          <div class="special-icon">🦋</div>
+          <div>
+            <h5>Your Strength is Inspiring</h5>
+            <p>You face every challenge with dignity and resilience. Your strength doesn't just move mountains — it inspires others to believe they can too.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 reveal reveal-delay-2">
+        <div class="special-item">
+          <div class="special-icon">🌺</div>
+          <div>
+            <h5>Your Smile Heals Everything</h5>
+            <p>There is a warmth in your smile that no medicine can replicate. It has a way of making everyone around you feel that everything will be alright.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 reveal reveal-delay-3">
+        <div class="special-item">
+          <div class="special-icon">🌙</div>
+          <div>
+            <h5>Your Presence is a Gift</h5>
+            <p>Simply being in your presence feels like a privilege. You make life richer, more meaningful, and infinitely more beautiful — just by being you.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════ SURPRISE / FINAL NOTE ════════════════ -->
+<section id="surprise" class="section-wrap">
+  <div class="container">
+    <div class="reveal">
+      <div class="surprise-card">
+        <div class="surprise-number">G</div>
+        <div class="gift-row">
+          <span>🎁</span><span>🌸</span><span>✨</span>
+        </div>
+        <h3>A Heartfelt Birthday Note</h3>
+        <p>
+          May this birthday mark the beginning of your most extraordinary chapter yet.
+          May every wish you have ever whispered find its way to you — gently, beautifully,
+          exactly as you imagined.
+        </p>
+        <p>
+          May you be surrounded by people who truly see you, love that asks nothing in return,
+          and moments so full of joy that your heart overflows. You have given so much to
+          the world — today, the world gives back to you.
+        </p>
+        <p>
+          Happy Birthday, Madam G. From the deepest place of admiration and love —
+          you are unforgettable, irreplaceable, and endlessly cherished. 💖
+        </p>
+        <div class="mt-4">
+          <button class="glow-btn" onclick="triggerCelebration()">🎉 Celebrate Again!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════ FOOTER ════════════════ -->
+<footer>
+  <p class="footer-script">Forever Cherished, Madam G</p>
+  <p>Made with love, respect, and heartfelt wishes for My Whole World By AR</p>
+  <div class="footer-hearts">♥ ♥ ♥</div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
